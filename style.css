@@ -1,0 +1,67 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+body{background-image: url("background.jpg");
+     background-size: cover;}
+
+
+.container{
+  width: 65vw;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius:20px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px; }
+
+.logo{width: 300px;}
+
+.logo-title{
+  color: green;
+  font-size: 40px;}
+
+.intestazione{
+  text-align: center;
+  padding: 40px;}
+
+.contained{
+  width: 70%;
+  height: 60%;
+  margin: auto;
+  color: white;
+}
+
+.navigatore{
+  text-align: center;
+  height: 40px;
+  background-color: green;
+  padding: 10px;
+}
+
+.row{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#monopattino1{
+  width: 300px;
+  height: 30px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#monopattino2{
+  width: 550px;
+  height: 30px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+#monopattino3{
+  width: 150px;
+  height: 30px;
+  background-color: red;
+  border-radius: 5px;
+}
